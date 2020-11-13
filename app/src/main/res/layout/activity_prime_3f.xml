@@ -6,6 +6,31 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <LinearLayout
+        android:layout_width="784dp"
+        android:layout_height="40dp"
+        android:background="@drawable/drawer_image"
+        android:gravity="center_vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="현재 위치하고 계신 강의실을 클릭하면 비상구까지의 최단경로를 안내해드립니다."
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+    </LinearLayout>
+
     <ImageView
         android:id="@+id/p_3f"
         android:layout_width="798dp"
@@ -24,8 +49,8 @@
 
     <Button
         android:id="@+id/p_301"
-        android:layout_width="112dp"
-        android:layout_height="89dp"
+        android:layout_width="130dp"
+        android:layout_height="88dp"
         android:background="#00ff0000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -36,66 +61,65 @@
 
     <Button
         android:id="@+id/p_302"
-        android:layout_width="102dp"
-        android:layout_height="92dp"
+        android:layout_width="115dp"
+        android:layout_height="87dp"
         android:background="#00ff0000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.541"
+        app:layout_constraintHorizontal_bias="0.543"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.809" />
+        app:layout_constraintVertical_bias="0.79" />
 
     <Button
         android:id="@+id/p_303"
-        android:layout_width="114dp"
-        android:layout_height="74dp"
+        android:layout_width="121dp"
+        android:layout_height="73dp"
         android:background="#00ff0000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.28"
+        app:layout_constraintHorizontal_bias="0.288"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.812"
+        app:layout_constraintVertical_bias="0.8"
         tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/p_304"
-        android:layout_width="108dp"
-        android:layout_height="72dp"
+        android:layout_width="112dp"
+        android:layout_height="80dp"
         android:background="#00ff0000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.287"
+        app:layout_constraintHorizontal_bias="0.298"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.541"
         tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/p_305"
         android:layout_width="90dp"
         android:layout_height="69dp"
-        android:layout_marginStart="184dp"
+        android:layout_marginStart="212dp"
         android:background="#00ff0000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/p_2f"
         app:layout_constraintHorizontal_bias="0.446"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.2" />
+        app:layout_constraintVertical_bias="0.264" />
 
     <Button
         android:id="@+id/p_306"
         android:layout_width="37dp"
         android:layout_height="63dp"
-        android:layout_marginEnd="332dp"
         android:background="#00ff0000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.54"
-        app:layout_constraintStart_toStartOf="@+id/p_2f"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.383" />
+        app:layout_constraintVertical_bias="0.436" />
 
     <ImageView
         android:id="@+id/imageView1"

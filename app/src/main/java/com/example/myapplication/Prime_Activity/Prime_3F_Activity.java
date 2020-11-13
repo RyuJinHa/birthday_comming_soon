@@ -22,12 +22,12 @@ import com.github.chrisbanes.photoview.PhotoViewAttacher;
 public class Prime_3F_Activity extends AppCompatActivity {
 
     int flag = 0;
-
+    TextView textview;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_prime_3f);
-
+        textview=findViewById(R.id.textView6);
         moving_301();
         moving_302();
         moving_303();
@@ -48,11 +48,11 @@ public class Prime_3F_Activity extends AppCompatActivity {
 
                 if (flag == 0) {
                     {
-                        ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX", 1400, 1280, 1280); //x 좌표
+                        ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX", 1400, 1270, 1270); //x 좌표
                         animation1.setDuration(1500);
                         animation1.start();
 
-                        ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY", 500, 500, 340); //y 좌표
+                        ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY", 530, 530, 400); //y 좌표
                         animation3.setDuration(1500);
                         animation3.start();
                     }
@@ -84,11 +84,11 @@ public class Prime_3F_Activity extends AppCompatActivity {
 
                 if (flag == 0) {
                     {
-                        ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX",  1180, 1280, 1280); //x 좌표
+                        ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX",  1130, 1270, 1270); //x 좌표
                         animation1.setDuration(1500);
                         animation1.start();
 
-                        ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY",  500, 500, 340); //y 좌표
+                        ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY",  530, 530, 400); //y 좌표
                         animation3.setDuration(1500);
                         animation3.start();
                     }
@@ -120,11 +120,11 @@ public class Prime_3F_Activity extends AppCompatActivity {
 
                 if (flag == 0) {
                     {
-                        ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX",  820, 820); //x 좌표
+                        ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX",  850, 850); //x 좌표
                         animation1.setDuration(1500);
                         animation1.start();
 
-                        ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY",  640, 775); //y 좌표
+                        ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY",  650, 772); //y 좌표
                         animation3.setDuration(1500);
                         animation3.start();
                     }
@@ -156,11 +156,11 @@ public class Prime_3F_Activity extends AppCompatActivity {
 
                 if (flag == 0) {
                     {
-                        ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX",  820, 820);
+                        ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX",  850, 850);
                         animation1.setDuration(1500);
                         animation1.start();
 
-                        ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY",  500, 775);
+                        ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY",  500, 772);
                         animation3.setDuration(1500);
                         animation3.start();
                     }
@@ -192,11 +192,11 @@ public class Prime_3F_Activity extends AppCompatActivity {
 
                 if (flag == 0) {
                     {
-                        ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX", 820, 820);
+                        ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX", 850, 850);
                         animation1.setDuration(1500);
                         animation1.start();
 
-                        ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY",  300, 775);
+                        ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY",  320, 775);
                         animation3.setDuration(1500);
                         animation3.start();
                     }
@@ -228,11 +228,11 @@ public class Prime_3F_Activity extends AppCompatActivity {
 
                 if (flag == 0) {
                     {
-                        ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX", 950, 820, 820);
+                        ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX", 960, 850, 850);
                         animation1.setDuration(1500);
                         animation1.start();
 
-                        ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY", 500, 500, 775);
+                        ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY", 530, 530, 772);
                         animation3.setDuration(1500);
                         animation3.start();
                     }

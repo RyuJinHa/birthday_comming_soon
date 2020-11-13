@@ -7,6 +7,7 @@ import android.view.View;
 
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -15,11 +16,12 @@ import com.example.myapplication.R;
 public class Prime_B1F_Activity extends AppCompatActivity {
 
     int flag = 0;
-
+    TextView textview;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_prime_b1f);
+        textview=findViewById(R.id.textView6);
 
         moving_bmu();
         moving_bsnow();

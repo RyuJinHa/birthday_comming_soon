@@ -22,12 +22,12 @@ import com.github.chrisbanes.photoview.PhotoViewAttacher;
 public class Prime_1F_Activity extends AppCompatActivity {
 
     int flag = 0;
-
+    TextView textview;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_prime_1f);
-
+        textview=findViewById(R.id.textView6);
         moving_101();
         moving_102();
         moving_103();
@@ -49,11 +49,11 @@ public class Prime_1F_Activity extends AppCompatActivity {
 
                 if (flag == 0) {
                     {
-                        ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX", 1300, 1300, 1580); //x 좌표
+                        ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX", 1380, 1380, 1620); //x 좌표
                         animation1.setDuration(1500);
                         animation1.start();
 
-                        ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY", 430, 350, 350); //y 좌표
+                        ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY", 470, 390, 390); //y 좌표
                         animation3.setDuration(1500);
                         animation3.start();
                     }
@@ -85,11 +85,11 @@ public class Prime_1F_Activity extends AppCompatActivity {
 
                 if (flag == 0) {
                     {
-                        ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX",  1150, 1300, 1300, 1580); //x 좌표
+                        ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX",  1200,1380, 1380, 1620); //x 좌표
                         animation1.setDuration(1600);
                         animation1.start();
 
-                        ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY",  430, 430, 350, 350); //y 좌표
+                        ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY",  470, 470, 390, 390); //y 좌표
                         animation3.setDuration(1600);
                         animation3.start();
                     }
@@ -121,11 +121,11 @@ public class Prime_1F_Activity extends AppCompatActivity {
 
                 if (flag == 0) {
                     {
-                        ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX",  880, 1300, 1300, 1580); //x 좌표
+                        ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX",  920, 1380, 1380, 1620); //x 좌표
                         animation1.setDuration(1800);
                         animation1.start();
 
-                        ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY",  430, 430, 350, 350); //y 좌표
+                        ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY",  470, 470, 390, 390); //y 좌표
                         animation3.setDuration(1800);
                         animation3.start();
                     }
@@ -157,11 +157,11 @@ public class Prime_1F_Activity extends AppCompatActivity {
 
                 if (flag == 0) {
                     {
-                        ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX",  700, 700, 1300, 1300, 1580);
+                        ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX",  720, 720, 1380, 1380, 1620);
                         animation1.setDuration(2100);
                         animation1.start();
 
-                        ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY",  600, 430, 430, 350, 350);
+                        ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY",  620, 470, 470, 390, 390);
                         animation3.setDuration(2100);
                         animation3.start();
                     }
@@ -193,11 +193,11 @@ public class Prime_1F_Activity extends AppCompatActivity {
 
                 if (flag == 0) {
                     {
-                        ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX", 700, 1300, 1300, 1580);
+                        ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX", 720,1380, 1380, 1620);
                         animation1.setDuration(1900);
                         animation1.start();
 
-                        ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY",  430, 430, 350, 350);
+                        ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY",  470,470, 390, 390);
                         animation3.setDuration(1900);
                         animation3.start();
                     }
@@ -229,11 +229,11 @@ public class Prime_1F_Activity extends AppCompatActivity {
 
                 if (flag == 0) {
                     {
-                        ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX", 700,1300, 1300, 1580);
+                        ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX", 720,1380, 1380, 1620);
                         animation1.setDuration(1900);
                         animation1.start();
 
-                        ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY", 430, 430, 350, 350);
+                        ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY", 470, 470, 390, 390);
                         animation3.setDuration(1900);
                         animation3.start();
                     }
@@ -265,11 +265,11 @@ public class Prime_1F_Activity extends AppCompatActivity {
 
                 if (flag == 0) {
                     {
-                        ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX", 890, 1300, 1300, 1580);
+                        ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX", 895, 1380, 1380, 1620);
                         animation1.setDuration(1800);
                         animation1.start();
 
-                        ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY", 430, 430, 350, 350);
+                        ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY", 470, 470, 390, 390);
                         animation3.setDuration(1800);
                         animation3.start();
                     }

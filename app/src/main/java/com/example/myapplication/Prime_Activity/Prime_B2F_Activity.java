@@ -22,12 +22,12 @@ import com.github.chrisbanes.photoview.PhotoViewAttacher;
 public class Prime_B2F_Activity extends AppCompatActivity {
 
     int flag = 0;
-
+    TextView textview;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_prime_b2f);
-
+        textview=findViewById(R.id.textView6);
         moving_b201_1();
         moving_b202_1();
         moving_b203_1();

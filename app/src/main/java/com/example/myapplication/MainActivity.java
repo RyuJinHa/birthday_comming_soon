@@ -138,7 +138,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         menu_3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("tel:119"));
+                Intent intent = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:119"));
                 startActivity(intent);
             }
         });
