@@ -168,7 +168,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
                 alert.show();
             }
         });
-    }
+}
 
     DrawerLayout.DrawerListener listener = new DrawerLayout.DrawerListener() {
         @Override
